@@ -14,8 +14,8 @@
     }
   ],
    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
     }
+  }
