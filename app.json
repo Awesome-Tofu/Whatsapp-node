@@ -1,21 +1,19 @@
 {
-  "name": "Chatbot-Whatsapp",
-  "description": "whatsapp bot build with nodejs",
-  "repository": "https://github.com/Awesome-Tofu/instagram-chatbot",
-  "logo": "https://te.legra.ph/file/405979b25d6f5047ff355.jpg",
-  "keywords": ["nodejs", "bot", "instagram bot", "instagram automation", "multi device"]
-},
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ],
-   "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
+    "name": "Chatbot-Insta",
+    "description": "instagram bot build with nodejs",
+    "repository": "https://github.com/Awesome-Tofu/instagram-chatbot",
+    "logo": "https://graph.org/file/f44a8af092e5f6a8930f9.png",
+    "keywords": ["nodejs", "bot", "instagram bot", "instagram automation", "multi device"],
+    
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      }
   }
